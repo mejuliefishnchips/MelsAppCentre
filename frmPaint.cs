@@ -15,14 +15,14 @@ namespace MelsAppCentre
         public frmPaint()
         {
             InitializeComponent();
-            loadCanvas();
+         //   loadCanvas();
 
             //Select Pen by default
-            selectedSetting = btnPen;
-            selectedSetting.BackColor = Color.Pink;
+           // selectedSetting = btnPen;
+           // selectedSetting.BackColor = Color.Pink;
 
         }
-
+   /*
         Bitmap paintImage;
         Bitmap drawImage;
         Bitmap workingImage;
@@ -83,7 +83,7 @@ namespace MelsAppCentre
                 }
                 else
                     global = workingGraphics;
-                */
+                
 
                 paintImage = new Bitmap(workingImage);
 
@@ -177,7 +177,7 @@ namespace MelsAppCentre
                 canvas.Refresh();
 
             }
-            */
+            
 
             switch (selectedSetting.Text)
             {
@@ -369,8 +369,9 @@ namespace MelsAppCentre
             lblFile.Text = "Drag and Drop Image to set as Background";
 
             canvas.Refresh();
+    
 
-
-        }
+        } 
+   */
     }
 }

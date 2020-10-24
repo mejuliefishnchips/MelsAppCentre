@@ -81,7 +81,7 @@
             // lblHitPoints
             // 
             this.lblHitPoints.AutoSize = true;
-            this.lblHitPoints.Location = new System.Drawing.Point(110, 19);
+            this.lblHitPoints.Location = new System.Drawing.Point(120, 19);
             this.lblHitPoints.Name = "lblHitPoints";
             this.lblHitPoints.Size = new System.Drawing.Size(0, 20);
             this.lblHitPoints.TabIndex = 4;
@@ -89,7 +89,7 @@
             // lblGold
             // 
             this.lblGold.AutoSize = true;
-            this.lblGold.Location = new System.Drawing.Point(110, 45);
+            this.lblGold.Location = new System.Drawing.Point(120, 45);
             this.lblGold.Name = "lblGold";
             this.lblGold.Size = new System.Drawing.Size(0, 20);
             this.lblGold.TabIndex = 5;
@@ -97,7 +97,7 @@
             // lblExperience
             // 
             this.lblExperience.AutoSize = true;
-            this.lblExperience.Location = new System.Drawing.Point(110, 73);
+            this.lblExperience.Location = new System.Drawing.Point(120, 73);
             this.lblExperience.Name = "lblExperience";
             this.lblExperience.Size = new System.Drawing.Size(0, 20);
             this.lblExperience.TabIndex = 6;
@@ -105,7 +105,7 @@
             // lblLevel
             // 
             this.lblLevel.AutoSize = true;
-            this.lblLevel.Location = new System.Drawing.Point(110, 99);
+            this.lblLevel.Location = new System.Drawing.Point(120, 99);
             this.lblLevel.Name = "lblLevel";
             this.lblLevel.Size = new System.Drawing.Size(0, 20);
             this.lblLevel.TabIndex = 7;
@@ -125,6 +125,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmAdventureGame";
             this.Text = "frmAdventureGame";
+            this.Load += new System.EventHandler(this.frmAdventureGame_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

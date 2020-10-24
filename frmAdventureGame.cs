@@ -20,22 +20,25 @@ namespace MelsAppCentre
         {
             InitializeComponent();
 
-            myPlayer = new Player();
-
-            myPlayer.currentHitPoints = 10;
-            myPlayer.maximumHitPoints = 10;
-            myPlayer.gold = 20;
-            myPlayer.experiencePoints = 0;
-            myPlayer.level = 1;
+            myPlayer = new Player(10, 10, 20, 0, 1);
 
             lblHitPoints.Text = myPlayer.currentHitPoints.ToString();
             lblGold.Text = myPlayer.gold.ToString();
             lblExperience.Text = myPlayer.experiencePoints.ToString();
             lblLevel.Text = myPlayer.level.ToString();
+
+            Location location = new Location(1, "Home", "This is your house.");
+            
+
         }
 
 
 
 
+
+        private void frmAdventureGame_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

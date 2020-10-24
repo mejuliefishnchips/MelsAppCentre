@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnAdventureGame = new System.Windows.Forms.Button();
             this.btnPaint = new System.Windows.Forms.Button();
+            this.btnAdventureGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExit
@@ -41,15 +41,7 @@
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            // 
-            // btnAdventureGame
-            // 
-            this.btnAdventureGame.Location = new System.Drawing.Point(12, 12);
-            this.btnAdventureGame.Name = "btnAdventureGame";
-            this.btnAdventureGame.Size = new System.Drawing.Size(325, 82);
-            this.btnAdventureGame.TabIndex = 1;
-            this.btnAdventureGame.Text = "Adventure Game";
-            this.btnAdventureGame.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnPaint
             // 
@@ -59,14 +51,25 @@
             this.btnPaint.TabIndex = 2;
             this.btnPaint.Text = "Paint";
             this.btnPaint.UseVisualStyleBackColor = true;
+            this.btnPaint.Click += new System.EventHandler(this.btnPaint_Click);
+            // 
+            // btnAdventureGame
+            // 
+            this.btnAdventureGame.Location = new System.Drawing.Point(12, 197);
+            this.btnAdventureGame.Name = "btnAdventureGame";
+            this.btnAdventureGame.Size = new System.Drawing.Size(325, 101);
+            this.btnAdventureGame.TabIndex = 3;
+            this.btnAdventureGame.Text = "Adventure Game";
+            this.btnAdventureGame.UseVisualStyleBackColor = true;
+            this.btnAdventureGame.Click += new System.EventHandler(this.btnAdventureGame_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnPaint);
             this.Controls.Add(this.btnAdventureGame);
+            this.Controls.Add(this.btnPaint);
             this.Controls.Add(this.btnExit);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -79,7 +82,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.Button btnAdventureGame;
         private System.Windows.Forms.Button btnPaint;
+        private System.Windows.Forms.Button btnAdventureGame;
     }
 }

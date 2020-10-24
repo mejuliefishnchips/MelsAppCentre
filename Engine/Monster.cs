@@ -4,15 +4,22 @@ using System.Text;
 
 namespace Engine
 {
-    public class Monster
+    public class Monster : LivingCreature 
     {
         public int id { get; set; }
         public string name { get; set; }
-        public int maxHitPoints { get; set; }
-        public int currentHitPoints { get; set; }
         public int maxDamage { get; set; }
         public int rewardExpPoints { get; set; }
         public int rewardGold { get; set; }
+
+        public Monster(int ID, string Name, int MaxDamage, int RewardEP, int RewardG,  int CurrentHitPoints, int MaxHitPoints) : base( CurrentHitPoints, MaxHitPoints)
+        {
+            id = ID;
+            name = Name;
+            maxDamage = MaxDamage;
+            rewardExpPoints = RewardEP;
+            rewardGold = RewardG;
+        }
 
     }
 }

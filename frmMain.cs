@@ -38,5 +38,6 @@ namespace MelsAppCentre
             frmAdventureGame myGame = new frmAdventureGame();
             myGame.ShowDialog();
         }
+
     }
 }

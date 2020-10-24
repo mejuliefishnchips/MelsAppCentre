@@ -9,5 +9,14 @@ namespace Engine
         public int id { get; set; }
         public string name { get; set; }
         public string description { get; set; }
+
+        public Location(int ID, string Name, string Description)
+        {
+            id = ID;
+            name = Name;
+            description = Description;
+        }
     }
+
+    
 }

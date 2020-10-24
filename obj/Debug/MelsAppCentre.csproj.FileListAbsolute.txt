@@ -8,3 +8,7 @@ C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.cspro
 C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.csproj.CoreCompileInputs.cache
 C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.exe
 C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.pdb
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.frmAdventureGame.resources
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\bin\Debug\Engine.dll
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\bin\Debug\Engine.pdb
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.csproj.CopyComplete
