@@ -35,8 +35,8 @@ namespace MelsAppCentre
 
         private void btnAdventureGame_Click(object sender, EventArgs e)
         {
-            frmAdventureGame myGame = new frmPaint();
-            myPaint.ShowDialog();
+            frmAdventureGame myGame = new frmAdventureGame();
+            myGame.ShowDialog();
         }
     }
 }
