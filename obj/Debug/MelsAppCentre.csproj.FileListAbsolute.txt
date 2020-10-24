@@ -1,0 +1,10 @@
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\bin\Debug\MelsAppCentre.exe.config
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\bin\Debug\MelsAppCentre.exe
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\bin\Debug\MelsAppCentre.pdb
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.csprojAssemblyReference.cache
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.frmMain.resources
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.Properties.Resources.resources
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.csproj.GenerateResource.cache
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.csproj.CoreCompileInputs.cache
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.exe
+C:\Users\MelindaFischer\source\repos\MelsAppCentre\obj\Debug\MelsAppCentre.pdb

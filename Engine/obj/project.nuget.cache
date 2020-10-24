@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TOpawoTvhteREkOm7u+jakNf7G72HZqcBTfcYbU7MSbot2sJYnSpnX/KGz4keqxNHyDOminZ1mBS1Pz/9EQZJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MelindaFischer\\source\\repos\\MelsAppCentre\\Engine\\Engine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MelindaFischer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\MelindaFischer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
