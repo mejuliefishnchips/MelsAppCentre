@@ -21,5 +21,22 @@ namespace MelsAppCentre
         {
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnPaint_Click(object sender, EventArgs e)
+        {
+            frmPaint myPaint = new frmPaint();
+            myPaint.ShowDialog();
+        }
+
+        private void btnAdventureGame_Click(object sender, EventArgs e)
+        {
+            frmAdventureGame myGame = new frmPaint();
+            myPaint.ShowDialog();
+        }
     }
 }
