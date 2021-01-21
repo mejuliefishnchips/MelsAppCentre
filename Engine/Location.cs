@@ -18,7 +18,7 @@ namespace Engine
         public Location locationToWest { get; set; }
 
 
-        public Location(int ID, string Name, string Description Item ItemRequiredToEnter = null, Quest QuestAvailableHere = null, Monster MonsterLivingHere = null)
+        public Location(int ID, string Name, string Description ,Item ItemRequiredToEnter = null, Quest QuestAvailableHere = null, Monster MonsterLivingHere = null)
         {
             id = ID;
             name = Name;
